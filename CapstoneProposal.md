@@ -26,6 +26,7 @@ _What additional tools, frameworks, libraries, APIs, or other resources will the
 
 * NASA open API
 * Tailwind
+* Three.js
 
 _Is there anything else you'd like your instructor to know?_ 
 
