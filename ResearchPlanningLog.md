@@ -12,3 +12,4 @@
 * 9:15: Researching various tools for portfolio
 * 10:00-11:30: Continued research, create component diagram
 * 1:30: Started component basics
+* 2:45: Watched 3 YouTube videos on React how-to's for Portfolio design
