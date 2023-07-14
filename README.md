@@ -16,7 +16,7 @@ _DESCRIBE PROJECT HERE_
 
 ## Component Diagram
 
-![component diagram](src/img/componentdiagram.png)
+![component diagram](src/assets/images/componentdiagram.png)
 
 ## Setup/Installation Requirements
 
