@@ -20,8 +20,8 @@ _DESCRIBE PROJECT HERE_
 
 ## Setup/Installation Requirements
 
-* _Clone the repository ```Capstone``` to your desktop._
-* _Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory titled ```bobs-burgers```_
+* _Clone the repository ```CapPortfolio``` to your desktop._
+* _Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory titled ```portfolio-project```_
 * _In your terminal or GitBash, type ```npm install`` for installing necessary dependencies to run this application_
 * _Enter ```npm run start``` to have browser access with application running_
     * If this command doesn't automatically open the web page, you can enter http://localhost:3000/ in the browser to access application
