@@ -10,4 +10,4 @@
 8/14/23
 * 8:00-9:00: Changing over project info from Bob's Burgers to Personal Portfolio
 * 9:15: Researching various tools for portfolio
-* 10:00-
+* 10:00-11:30: Continued research, create component diagram
