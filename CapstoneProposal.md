@@ -14,9 +14,8 @@ _What tools, frameworks, libraries, APIs, modules and/or other resources (whatev
 
 * HTML/CSS
 * JavaScript/JSX
-* React - 
+* React
 * Bootstrap
-* Tailwind
 
 _If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific_. 
 
@@ -26,9 +25,7 @@ _If you finish developing the minimum viable product (MVP) with time to spare, w
 _What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?_ 
 
 * NASA open API
-* Webpack
-* Node.js
-* Babel
+* Tailwind
 
 _Is there anything else you'd like your instructor to know?_ 
 
