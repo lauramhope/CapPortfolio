@@ -10,11 +10,11 @@ export const AboutMe = () => {
           <Col xs={12} s={8} md={6}>
             <div className="about-me">
               <h1>About Me</h1>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <p>I'm a full-stack web developer and recent graduate from the Epicodus full-time software development program</p>
+              <p>I have a passion for learning and creating</p>
+              <p>I have previous experience in customer support through my role as a physical therapist, where I provided one-on-one care to patients</p>
+              <p>I am a dedicated team player who actively seeks opportunities to enhance both my personal growth and the success of my team</p>
+              <p>I consistently demonstrate a strong work ethic and a continuous drive to improve my skills</p>
             </div>
           </Col>
           <Col xs={12} s={8} md={6}>
