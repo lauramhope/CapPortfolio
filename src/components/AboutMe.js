@@ -30,13 +30,14 @@ export const AboutMe = () => {
           </Col>
           <Col xs={12} s={8} md={6}>
             <div className="skills">
-              <h1>Skills</h1>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <h1>Proficient in:</h1>
+                <p>HTML - CSS - JavaScript</p>
+                <p>C#/.NET - React - Redux</p>
+                <p>Node.js - Firebase - Firestore</p>
+                <p>Git - GitHub - Visual Studio Code</p>
+                <p>Bootstrap - REST APIs - jQuery</p>
+                <p>MySQL - NoSQL</p>
+                <p>Test Driven Development</p>
             </div>
           </Col>
           <Col xs={12} s={8} md={6}>
