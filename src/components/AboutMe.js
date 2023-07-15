@@ -23,9 +23,9 @@ export const AboutMe = () => {
           <Col xs={12} s={8} md={6}>
             <div className="education">
               <h1>Education</h1>
-              <p></p>
-              <p></p>
-              <p></p>
+              <p>Full-Stack Software Engineer: Epicodus 2023</p>
+              <p>Doctor of Physical Therapy: Georgia State University 2021</p>
+              <p>Bachelor's of Science in Kinesiology: Georgia State University 2016</p>
             </div>
           </Col>
           <Col xs={12} s={8} md={6}>
