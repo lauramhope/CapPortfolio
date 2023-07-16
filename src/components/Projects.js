@@ -9,7 +9,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -18,7 +18,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -27,7 +27,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -38,7 +38,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -47,7 +47,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -56,7 +56,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -67,7 +67,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -76,7 +76,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -85,7 +85,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -96,7 +96,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -105,7 +105,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
@@ -114,7 +114,7 @@ export const Projects = () => {
       description: '',
       technologies: '',
       github: (
-
+        <a href="">Link to project</a>
       ),
       image: "",
     },
