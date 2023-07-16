@@ -5,7 +5,7 @@ import './App.css';
 export const Projects = () => {
   const javascriptProjects = [
     {
-      name: '',
+      title: '',
       description: '',
       technologies: '',
       github: (
@@ -13,3 +13,109 @@ export const Projects = () => {
       ),
       image: "",
     },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+  ];
+  const cSharpProjects = [
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+  ];
+  const reactProjects = [
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+  ];
+  const teamProjects = [
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+    {
+      title: '',
+      description: '',
+      technologies: '',
+      github: (
+
+      ),
+      image: "",
+    },
+  ];
