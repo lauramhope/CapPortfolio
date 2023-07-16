@@ -119,3 +119,34 @@ export const Projects = () => {
       image: "",
     },
   ];
+
+  return (
+    <Container>
+      <Row className="align-items-center">
+        <Col>
+          <h2>Projects</h2>
+        </Col>
+      </Row>
+      <Row className="align-items-center">
+        <Col>
+          <h3>Javascript</h3>
+        </Col>
+      </Row>
+      <Row className="align-items-center">
+        <Col>
+          <h3>C# / .NET</h3>
+        </Col>
+      </Row>
+      <Row className="align-items-center">
+        <Col>
+          <h3>React</h3>
+        </Col>
+      </Row>
+      <Row className="align-items-center">
+        <Col>
+          <h3>Team Projects</h3>
+        </Col>
+      </Row>
+    </Container>
+  );
+}
