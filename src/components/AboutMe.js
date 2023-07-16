@@ -43,12 +43,13 @@ export const AboutMe = () => {
           <Col xs={12} s={8} md={6}>
             <div className="hobbies">
               <h1>Hobbies</h1>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <p>Rock climbing</p>
+              <p>Biking</p>
+              <p>Traveling</p>
+              <p>Reading</p>
+              <p>Camping</p>
+              <p>Cooking</p>
+              <p>Pickleball</p>
             </div>
           </Col>
         </Row>
