@@ -18,18 +18,20 @@ _What tools, frameworks, libraries, APIs, modules and/or other resources (whatev
 * React
 * Bootstrap
 * Tailwind
-* Nextjs
+* Next.js
 * Vercel.app
 
 _If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific_. 
 
 * Astronomy picture of the day (via NASA API)
 * More advanced styling options (3D features)
+* Mobile device capabilities
 
 _What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?_ 
 
 * NASA open API
 * Three.js
+* React Native
 
 _Is there anything else you'd like your instructor to know?_ 
 
