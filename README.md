@@ -1,4 +1,4 @@
-# Portfolio
+# Capstone Portfolio
 
 #### By **Laura Hope**
 
@@ -7,21 +7,19 @@
 * _Git_
 * _JavaScript / JSX_
 * _HTML / CSS_
-* _React_
-* _Node.js_
-* _Bootstrap_
+* _React v 18.2.0_
+* _Tailwind v 3.3.3_
+* _Next.js v 13.4.10_
+* _Axios v 1.4.0_
+* _Bootstrap v 5.3.0_
 
 ## Description
 _DESCRIBE PROJECT HERE_
 
-## Component Diagram
-
-![component diagram](src/assets/images/componentdiagram.png)
-
 ## Setup/Installation Requirements
 
 * _Clone the repository ```CapPortfolio``` to your desktop._
-* _Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory titled ```portfolio-project```_
+* _Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory titled ```my-portfolio```_
 * _In your terminal or GitBash, type ```npm install`` for installing necessary dependencies to run this application_
 * _Enter ```npm run start``` to have browser access with application running_
     * If this command doesn't automatically open the web page, you can enter http://localhost:3000/ in the browser to access application

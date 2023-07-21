@@ -20,6 +20,8 @@ _What tools, frameworks, libraries, APIs, modules and/or other resources (whatev
 * Tailwind
 * Next.js
 * Vercel.app
+* Git
+* Axios
 
 _If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific_. 
 
