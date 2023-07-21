@@ -25,7 +25,7 @@ _If you finish developing the minimum viable product (MVP) with time to spare, w
 
 * Astronomy picture of the day (via NASA API)
 * More advanced styling options (3D features)
-* Mobile device capabilities
+* Mobile device compatability
 
 _What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?_ 
 
