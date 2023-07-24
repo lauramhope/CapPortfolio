@@ -9,7 +9,7 @@ export default function Contact() {
           Contact
         </h1>
       </div>
-      <div className="z-index:2 rounded-md shadow-md bg-pink-700 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="z-index:2 rounded-md shadow-md bg-blue-400 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
