@@ -146,7 +146,7 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.linkedin}
-            className="text-base font-normal text-gray-600 dark:text-gray-300 bg-white dark:bg-gray-800"
+            className="text-base font-normal text-gray-600 dark:text-gray-300 bg-grey dark:bg-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
