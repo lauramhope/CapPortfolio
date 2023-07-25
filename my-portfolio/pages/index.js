@@ -1,5 +1,3 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import ContainerBlock from "../components/ContainerBlock";
 import FavProjects from "../components/FavProjects";
 import LatestCode from "../components/LatestCode";
