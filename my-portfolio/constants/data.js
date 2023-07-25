@@ -47,11 +47,11 @@ const userData = {
       link: "https://github.com/lauramhope/wordle-app.git",
       imgUrl: "/wordle.png",
     },
-    // {
-    //   title: "Dr. Sillystringz Factory",
-    //   link: "https://github.com/lauramhope/DrSillyStringz.Solution.git",
-    //   imgUrl: "/factory.png",
-    // },
+    {
+      title: "Dr. Sillystringz Factory",
+      link: "https://github.com/lauramhope/DrSillyStringz.Solution.git",
+      imgUrl: "/factory.png",
+    },
   ],
   about: {
     title:
