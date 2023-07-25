@@ -18,9 +18,9 @@ const userData = {
       imgUrl: "/bikeAPIteam.png",
     },
     {
-      title: "Dr. Sillystringz's Factory",
-      link: "https://github.com/lauramhope/DrSillyStringz.Solution.git",
-      imgUrl: "/factory.png",
+      title: "Eau Claire's Salon",
+      link: "https://github.com/lauramhope/EauClaireSalon.Solution.git",
+      imgUrl: "/salon.png",
     },
     {
       title: "Pierre's Sweet and Savory Treats",
@@ -47,6 +47,11 @@ const userData = {
       link: "https://github.com/lauramhope/wordle-app.git",
       imgUrl: "/wordle.png",
     },
+    // {
+    //   title: "Dr. Sillystringz Factory",
+    //   link: "https://github.com/lauramhope/DrSillyStringz.Solution.git",
+    //   imgUrl: "/factory.png",
+    // },
   ],
   about: {
     title:

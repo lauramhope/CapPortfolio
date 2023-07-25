@@ -33,7 +33,7 @@ export default function FavProjects() {
         </header>
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
         <a
-            href=""
+            href="https://github.com/lauramhope/DrSillyStringz.Solution.git"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
@@ -51,17 +51,17 @@ export default function FavProjects() {
             </div>
           </a>
           <a
-            href=""
+            href="https://github.com/lauramhope/bike-API.git"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/salon.png"
-                alt="salon"
+                src="/bikeAPIteam.png"
+                alt="bike"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Eau Claire's Salon
+                Bike API
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -69,7 +69,7 @@ export default function FavProjects() {
             </div>
           </a>
           <a
-            href=""
+            href="https://github.com/lauramhope/currency-exchange.git"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
