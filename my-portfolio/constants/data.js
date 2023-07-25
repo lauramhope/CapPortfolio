@@ -52,6 +52,11 @@ const userData = {
       link: "https://github.com/lauramhope/DrSillyStringz.Solution.git",
       imgUrl: "/factory.png",
     },
+    {
+      title: "Pierre's Bakery",
+      link: "https://github.com/lauramhope/PierresBakery.Solution.git",
+      imgUrl: "/bakery2.png",
+    }
   ],
   about: {
     title:
