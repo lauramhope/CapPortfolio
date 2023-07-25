@@ -24,6 +24,8 @@ _DESCRIBE PROJECT HERE_
 * _Enter ```npm run start``` to have browser access with application running_
     * If this command doesn't automatically open the web page, you can enter http://localhost:3000/ in the browser to access application
 
+_INFO ABOUT VERCEL_
+
 ## Known Bugs
 
 * _ENTER DATE W ANY KNOWN BUGS HERE_
