@@ -1,11 +1,11 @@
 import React from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 export default function ContainerBlock({ children, ...customMeta }) {
-  const router = useRouter();
+  // const router = useRouter();
 
   const meta = {
     title: "Laura Hope - Jr. Web Developer",
