@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import userData from "@constants/data";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
   const [showModal, setShowModal] = useState(false);
@@ -8,14 +9,9 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Use the service ID, template ID, and user ID from your EmailJS account
     const serviceID = "service_4xbtb5a";
     const templateID = "template_cnn9hvy";
     const userID = "GhVmENmEdag3RlFoO";
-
-    const emailjs = dynamic(() => import("emailjs-com"), {
-      ssr: false,
-    });
 
     emailjs
       .sendForm(serviceID, templateID, e.target, userID)
