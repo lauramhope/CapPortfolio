@@ -146,7 +146,7 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.github}
-            className="text-base font-normal text-gray-600 dark:text-gray-300 bg-grey dark:bg-gray-800"
+            className="text-base font-normal text-gray-600 dark:text-gray-300 dark:bg-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +179,7 @@ export default function Navbar() {
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="w-9 h-9 p-3 rounded focus:outline-none bg-gray-200 dark:bg-gray-800"
+            className="w-9 h-9 p-3 rounded focus:outline-none bg-gray-300 dark:bg-gray-800"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           >
             {mounted && (
