@@ -99,7 +99,6 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
-          {/* Text area */}
           <div className="col-span-1 md:col-span-2">
             {userData.about.description?.map((desc, idx) => (
               <p

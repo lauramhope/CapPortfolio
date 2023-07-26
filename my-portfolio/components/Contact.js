@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import userData from "@constants/data";
-// import dynamic from "next/dynamic";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
@@ -36,22 +35,6 @@ export default function Contact() {
 
     e.target.reset();
   };
-
-  //   emailjs
-  //     .sendForm(serviceID, templateID, e.target, userID)
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         setShowModal(true);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //         setShowModal(true);
-  //       }
-  //     );
-
-  //   e.target.reset();
-  // };
 
   const Modal = ({ message, onClose }) => {
     return (
@@ -109,16 +92,16 @@ export default function Contact() {
 
   return (
     <section>
-      <div className="max-w-6xl mx-auto h-48 bg-blue-100 dark:bg-grey-800 antialiased">
+      <div className="max-w-6xl mx-auto h-48 bg-blue-100 dark:bg-gray-800 antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
       </div>
-      <div className="z-index:2 rounded-md shadow-md bg-blue-400 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="z-index:2 rounded-md shadow-md bg-blue-400 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4 dark:bg-gray-700">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
-              <h1 className="text-gray-800 font-semibold text-2xl">
+              <h1 className="text-gray-800 font-semibold text-2xl dark:text-gray-200">
                 Send me a message.
               </h1>
               <p className="font-light text-base text-gray-100 mt-2">

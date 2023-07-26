@@ -11,17 +11,17 @@ export default function Education() {
       </div>
       <div className="bg-gray-100 dark:bg-gray-700 -mt-4">
         <div className="grid grid-cols-1 dark:bg-gray-500 max-w-xl mx-auto pt-20">
-          {userData.education.map((exp, idx) => (
+          {userData.education.map((exp, ind) => (
             <>
               <EducationCard
-                key={idx}
+                key={ind}
                 diploma={exp.diploma}
                 desc={exp.desc}
                 year={exp.year}
                 program={exp.program}
                 link={exp.link}
               />
-              {idx === userData.education.length - 1 ? null : (
+              {ind === userData.education.length - 1 ? null : (
                 <div className="divider-container flex flex-col items-center -mt-2">
                   <div className="w-4 h-4 bg-pink-500 rounded-full relative z-10">
                     <div className="w-4 h-4 bg-pink-500 rounded-full relative z-10 animate-ping"></div>
