@@ -1,7 +1,38 @@
 import React from "react";
 import userData from "@constants/data";
+import dynamic from "next/dynamic";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  // const MapWithNoSSR = dynamic(() => import("@components/Map"), {
+  //   ssr: false,
+  // });
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    // Use the service ID, template ID, and user ID from your EmailJS account
+    const serviceID = "service_4xbtb5a";
+    const templateID = "template_cnn9hvy";
+    const userID = "GhVmENmEdag3RlFoO";
+
+    // Send the email using emailjs.sendForm
+    emailjs
+      .sendForm(serviceID, templateID, e.target, userID)
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message Sent, I'll get back to you shortly", result.text);
+        },
+        (error) => {
+          console.log(error.text);
+          alert("An error occurred, Please try again", error.text);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-blue-100 dark:bg-grey-800 antialiased">
@@ -21,7 +52,7 @@ export default function Contact() {
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -39,7 +70,10 @@ export default function Contact() {
                   {userData.phone}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-800 p-4">
+              <br />
+              <hr />
+              <br />
+              <div className="flex flex-row items-center space-x-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -54,7 +88,10 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-800 p-4">
+              <br />
+              <hr />
+              <br />
+              <div className="flex flex-row items-center space-x-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -70,25 +107,8 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-            <div className="social-icons flex flex-row space-x-8">
-              <a
-                href={userData.socialLinks.linkedin}
-                className="h-10 w-10 rounded-full hover:bg-blue-800 flex items-center justify-center cursor-pointer"
-              >
-                <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-linkedin h-5 w-5"
-                viewBox="0 0 16 16"
-              >
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-              </svg>
-              </a>
-            </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form className="form rounded-lg bg-white p-4 flex flex-col" onSubmit={sendEmail}>
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
