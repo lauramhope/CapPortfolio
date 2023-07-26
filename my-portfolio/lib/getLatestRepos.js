@@ -3,8 +3,9 @@ import axios from "axios";
 const getLatestRepos = async (data, token) => {
   try {
     const username = data.githubUsername;
+    console.log("username", username);
 
-    // let token = `token ${process.env.GITHUB_AUTH_TOKEN}`;
+    let token = `token ${process.env.GITHUB_AUTH_TOKEN}`;
 
     if (token) {
       const res = await axios.get(
