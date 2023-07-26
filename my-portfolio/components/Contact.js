@@ -1,12 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import userData from "@constants/data";
 import dynamic from "next/dynamic";
-import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-  // const MapWithNoSSR = dynamic(() => import("@components/Map"), {
-  //   ssr: false,
-  // });
+  const [showModal, setShowModal] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,21 +13,94 @@ export default function Contact() {
     const templateID = "template_cnn9hvy";
     const userID = "GhVmENmEdag3RlFoO";
 
-    // Send the email using emailjs.sendForm
+    const emailjs = dynamic(() => import("emailjs-com"), {
+      ssr: false,
+    });
+
     emailjs
       .sendForm(serviceID, templateID, e.target, userID)
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message Sent, I'll get back to you shortly", result.text);
+          setShowModal(true);
         },
         (error) => {
           console.log(error.text);
-          alert("An error occurred, Please try again", error.text);
+          setShowModal(true);
         }
       );
 
     e.target.reset();
+  };
+
+  //   emailjs
+  //     .sendForm(serviceID, templateID, e.target, userID)
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         setShowModal(true);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //         setShowModal(true);
+  //       }
+  //     );
+
+  //   e.target.reset();
+  // };
+
+  const Modal = ({ message, onClose }) => {
+    return (
+      <div className="fixed z-10 inset-0 overflow-y-auto">
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+          <div className="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full">
+            <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+              <div className="sm:flex sm:items-start">
+                <div
+                  className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 sm:mx-0 sm:h-10 sm:w-10"
+                  style={{ backgroundColor: "#10B981" }}
+                >
+                  <svg
+                    className="h-6 w-6 text-green-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-.707 15.293a1 1 0 0 1-1.414-1.414l3.707-3.707a1 1 0 0 1 1.414 0l3.707 3.707a1 1 0 1 1-1.414 1.414L12 14.414l-2.707 2.879z"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                  <h3
+                    className="text-lg leading-6 font-medium text-gray-900"
+                    id="modal-headline"
+                  >
+                    {message}
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gray-50 px-4 py-3 sm:px-6 flex flex-row-reverse">
+              <button
+                type="button"
+                className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-green-600 text-base font-medium text-white hover:bg-green-700 focus:outline-none sm:ml-3 sm:w-auto sm:text-sm"
+                onClick={onClose}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const closeModal = () => {
+    setShowModal(false);
   };
 
   return (
@@ -92,16 +162,16 @@ export default function Contact() {
               <hr />
               <br />
               <div className="flex flex-row items-center space-x-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-pin-fill h-4 w-4 text-blue-800"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z" />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-pin-fill h-4 w-4 text-blue-800"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z" />
+                  </svg>
                 <p className="text-gray-50 font-light text-sm">
                   {userData.address}
                 </p>
@@ -145,6 +215,12 @@ export default function Contact() {
               Send Message
             </button>
           </form>
+          {showModal && (
+            <Modal
+              message="Your message has been sent!"
+              onClose={closeModal}
+            />
+          )}
         </div>
       </div>
     </section>
