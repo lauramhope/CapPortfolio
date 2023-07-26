@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "lauramhope",
   name: "Laura Hope",
-  designation: "Jr Full-Stack Developer",
+  designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpg",
   email: "lauramhope.dpt@gmail.com",
   phone: "404.819.7311",
