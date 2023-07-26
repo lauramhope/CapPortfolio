@@ -10,11 +10,19 @@ export default function Contact() {
     e.preventDefault();
 
     const serviceID = "service_4xbtb5a";
-    const templateID = "template_cnn9hvy";
+    const templateID = "template_gujkbhv";
     const userID = "GhVmENmEdag3RlFoO";
 
+    const { name, email, message } = e.target;
+
+    const templateParams = {
+      from_name: name.value,
+      from_email: email.value,
+      message: message.value,
+    };
+
     emailjs
-      .sendForm(serviceID, templateID, e.target, userID)
+      .send(serviceID, templateID, templateParams, userID)
       .then(
         (result) => {
           console.log(result.text);

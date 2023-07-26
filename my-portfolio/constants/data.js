@@ -92,7 +92,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1MFlY3KRhHeNWUSk-zIyHiNaw2Bsj6bPg/view?usp=sharing",
+    "https://drive.google.com/file/d/1COmBZuSN3-aGFARBVaIh-9_LyW-PBYJL/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/lauramarie43",
     linkedin: "https://www.linkedin.com/in/laura-hope-softwaredev/",
