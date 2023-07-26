@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
+import styles from '../styles/GithubRepoCard.module.css';
 
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState(repositories);
@@ -51,7 +52,7 @@ export default function LatestCode({ repositories }) {
 
 const GithubRepoCard = ({ latestRepo }) => {
   return (
-    <div className="github-repo">
+    <div className={`${styles["github-repo"]}`}>
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
         {latestRepo.name}
       </h1>
