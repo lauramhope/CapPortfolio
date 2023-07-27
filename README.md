@@ -2,6 +2,10 @@
 
 #### By **Laura Hope**
 
+## Live Link via Vercel
+```https://lauramhope-portfolio.vercel.app/```
+![](./public/homepage.png)
+
 ## Technologies Used
 
 * _Git_
