@@ -12,23 +12,23 @@
 * _Next.js v 13.4.10_
 * _Axios v 1.4.0_
 * _Bootstrap v 5.3.0_
+* _Next themes_
 
 ## Description
-_DESCRIBE PROJECT HERE_
+_This application displays a professional portfolio website using React, Next.js, and TailwindCSS for various informative pages and styling. GitHub API implemented using Axios to fetch the latest code from my personal repository. Includes toggling between dark and light mode via Next-themes._
 
 ## Setup/Installation Requirements
 
 * _Clone the repository ```CapPortfolio``` to your desktop._
-* _Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory titled ```my-portfolio```_
+* _Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory titled ```portfolio-project```_
 * _In your terminal or GitBash, type ```npm install`` for installing necessary dependencies to run this application_
 * _Enter ```npm run start``` to have browser access with application running_
     * If this command doesn't automatically open the web page, you can enter http://localhost:3000/ in the browser to access application
-
-_INFO ABOUT VERCEL_
+* _Can also go directly to hosted website on Vercel: ```https://lauramhope-portfolio.vercel.app/```_
 
 ## Known Bugs
 
-* _ENTER DATE W ANY KNOWN BUGS HERE_
+* _No known bugs as of 7/27/23_
 
 ## License
 
