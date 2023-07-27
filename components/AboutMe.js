@@ -12,7 +12,7 @@ export default function AboutMe() {
       <div className="bg-blue-200bg-opacity-60 -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            className="leading-loose text-2xl md:text-4xl font-normal mx-4"
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}
