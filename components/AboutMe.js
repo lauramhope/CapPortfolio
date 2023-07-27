@@ -1,7 +1,5 @@
 import React from "react";
 import userData from "@constants/data";
-import { Carousel } from "react-responsive-carousel";
-import styles from '../styles/carousel.module.css'
 
 export default function AboutMe() {
   return (
@@ -117,81 +115,55 @@ export default function AboutMe() {
             <h1 className="bg-blue-800 text-2xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Technologies Used:
             </h1>
-            <div className={`flex flex-row flex-wrap mt-8 ${styles["skill-slider"]}`}>
-              <Carousel showThumbs={false} infiniteLoop={true} showArrows={true}>
-                <div>
+            <div className="flex flex-row flex-wrap mt-8">
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img 
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img 
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-                <div>
                   <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
                     className="h-20 w-20 mx-4 my-4"
                   />
-                </div>
-              </Carousel>
             </div>
           </div>
         </div>
