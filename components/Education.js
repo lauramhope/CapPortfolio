@@ -3,13 +3,13 @@ import React from "react";
 
 export default function Education() {
   return (
-    <section className="bg-blue-100 dark:bg-gray-700">
-      <div className="max-w-6xl mx-auto h-48 bg-blue-100 dark:bg-gray-700">
+    <section className="bg-blue-100 bg-opacity-60 dark:bg-gray-700">
+      <div className="max-w-6xl mx-auto h-48 bg-blue-100 bg-opacity-5 dark:bg-gray-700">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Education
         </h1>
       </div>
-      <div className="bg-gray-100 dark:bg-gray-700 -mt-4">
+      <div className="bg-gray-100 bg-opacity-70 dark:bg-gray-700 -mt-4">
         <div className="grid grid-cols-1 dark:bg-gray-500 max-w-xl mx-auto pt-20">
           {userData.education.map((exp, ind) => (
             <>

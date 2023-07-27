@@ -92,12 +92,12 @@ export default function Contact() {
 
   return (
     <section>
-      <div className="max-w-6xl mx-auto h-48 bg-blue-100 dark:bg-gray-800 antialiased">
+      <div className="max-w-6xl mx-auto h-48 bg-sky-200 bg-opacity-80 dark:bg-gray-800 antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
       </div>
-      <div className="z-index:2 rounded-md shadow-md bg-blue-400 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4 dark:bg-gray-700">
+      <div className="z-index:2 rounded-md shadow-md bg-violet-400 bg-opacity-60 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4 dark:bg-gray-700">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
