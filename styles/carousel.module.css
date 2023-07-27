@@ -1,0 +1,32 @@
+.skill-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Set the width to adjust the number of images visible at a time */
+  max-width: 80%;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.skill-slider .slide {
+  /* Set the width and height of each slide */
+  width: 60px;
+  height: 60px;
+  background-color: greenyellow;
+}
+
+.skill-slider img {
+  /* Adjust the image size to fit the slide container */
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  /* Add any other styling you need for the images */
+}
+
+.skill-slider .carousel .slider-wrapper .slider .slide {
+  display: inline-block;
+}
+
+.skill-slider div {
+  display: inline-block; 
+}
