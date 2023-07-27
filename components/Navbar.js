@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20 navbar-container">
       <div className="flex  md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="space-x-8 hidden md:block">
           <Link
             href="/about"
-            className={`text-base  ${
+            className={`text-base navbar-link ${
               router.asPath === "/about"
                 ? "text-gray-800 font-bold dark:text-gray-400"
                 : "text-gray-600 dark:text-gray-300 font-normal "
@@ -56,7 +56,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/projects"
-            className={`text-base  ${
+            className={`text-base navbar-link ${
               router.asPath === "/projects"
                 ? "text-gray-800 font-bold dark:text-gray-400"
                 : "text-gray-600 dark:text-gray-300 font-normal "
@@ -81,7 +81,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/education"
-            className={`text-base  ${
+            className={`text-base navbar-link ${
               router.asPath === "/education"
                 ? "text-gray-800 font-bold dark:text-gray-400"
                 : "text-gray-600 dark:text-gray-300 font-normal "
@@ -106,7 +106,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/contact"
-            className={`text-base  ${
+            className={`text-base navbar-link ${
               router.asPath === "/contact"
                 ? "text-gray-800 font-bold dark:text-gray-400"
                 : "text-gray-600 dark:text-gray-300 font-normal "

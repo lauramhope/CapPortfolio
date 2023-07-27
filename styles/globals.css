@@ -32,3 +32,38 @@ h1 {
 p {
   font-family: Georgia; 
 }
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-img {
+  /* border-radius: 50%; */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
+  z-index: 0;
+}
+
+.navbar-link {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: oblique, serif;
+  font-variant: small-caps;
+}
+
+/* .navbar-container {
+  background-color: rgba(252, 244, 244, 0.595);
+} */
