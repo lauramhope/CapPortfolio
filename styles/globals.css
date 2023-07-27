@@ -67,3 +67,21 @@ p {
 /* .navbar-container {
   background-color: rgba(252, 244, 244, 0.595);
 } */
+
+.gradient-background {
+  background-image: linear-gradient(to right, #D8B5FF, #1EAE98);
+}
+
+.footer-gradient {
+  background-image: linear-gradient(to right, #f49bbb, #f1b555);
+  opacity: 0.9;
+}
+
+.favproject-gradient {
+  background-image: linear-gradient(to left, #D8B5FF, #1EAE98);
+}
+
+.navbar-gradient {
+  background-image: linear-gradient(to right, #f49bbb, #f1b555);
+  opacity: 0.9;
+}

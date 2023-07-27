@@ -31,7 +31,7 @@ export default function Hero() {
       </div>
       <div className="lg:block relative w-full md:w-1/2 -mr-40 mt-20">
       <div>
-          <div className="w-3/4">
+          <div className="w-3/4 shadow-2xl">
             <img src={userData.avatarUrl} alt="avatar" className="avatar-img"/>
             <div className="flex flex-row justify-between mt-4"></div>
           </div>

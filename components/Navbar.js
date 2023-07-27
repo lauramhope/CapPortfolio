@@ -15,14 +15,15 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20 navbar-container">
+    <div className="top-container bg-gradient-to-r from-pink-200 opacity-90 dark:bg-gray-900">
+    <div className="max-w-7xl  mx-auto px-4 py-10 md:py-20 navbar-container">
       <div className="flex  md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <h1 className="font-semibold text-xl dark:text-gray-100">
+            <h1 className="font-semibold text-2xl dark:text-gray-800">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+            <p className="text-base font-normal text-gray-500 dark:text-gray-700">
               {userData.designation}
             </p>
           </Link>
@@ -236,6 +237,7 @@ export default function Navbar() {
           Contact
         </Link>
       </div>
+    </div>
     </div>
   );
 }
