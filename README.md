@@ -3,7 +3,7 @@
 #### By **Laura Hope**
 
 ## Live Link via Vercel
-```https://lauramhope-portfolio.vercel.app/```
+https://lauramhope-portfolio.vercel.app/
 ![](./public/homepage.png)
 
 ## Technologies Used
