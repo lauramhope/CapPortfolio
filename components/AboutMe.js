@@ -9,7 +9,7 @@ export default function AboutMe() {
           About Me.
         </h1>
       </div>
-      <div className="bg-blue-200bg-opacity-60 -mt-10 dark:bg-gray-900">
+      <div className="bg-blue-200 bg-opacity-10 -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl md:text-4xl font-normal mx-4"
