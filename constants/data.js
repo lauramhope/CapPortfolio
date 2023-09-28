@@ -3,7 +3,7 @@ const userData = {
   name: "Laura Hope",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpg",
-  email: "lauramhope.dpt@gmail.com",
+  email: "laura.hope.se@gmail.com",
   phone: "404.819.7311",
   address: "Seattle, WA, USA",
   projects: [
